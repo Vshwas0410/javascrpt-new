@@ -12,3 +12,5 @@ let userTwo=userOne;
 userTwo.email="vishwas@google.com"
 console.log(userOne.email);
 console.log(userTwo.email);
+
+//stack is done by copying & heap is done by reference
