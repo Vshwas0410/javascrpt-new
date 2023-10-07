@@ -40,7 +40,35 @@ const user=[{
             id:"12as",
             naam:"Vs"}]
         //  console.log( user[3].naam);  
-         console.log(Object.keys(tinderUser));
-         console.log(Object.values(tinderUser));
-         console.log(Object.entries(regularUser));
-         console.log(tinderUser.hasOwnProperty('isLogged'));
+        //  console.log(Object.keys(tinderUser));
+        //  console.log(Object.values(tinderUser));
+        //  console.log(Object.entries(regularUser));
+        //  console.log(tinderUser.hasOwnProperty('isLogged'));
+         
+        const course={
+            courseName:"JavaLearning",
+            price:"999",
+            courseInstructor:"Vshwas"            
+
+        }
+       // const.courseInstructor
+       const{courseInstructor}=course
+       console.log(course);
+
+    //    console.log(instructor);
+
+
+    // const navbar=(){   ->object destructing
+
+    // }
+    // navbar(company)
+// Json is type of object -> { } <-Representation
+// {
+//     "name"="Vishwas",
+    // "courseName"="Java",    react
+//     "price"="free"
+
+// }
+
+/*********Many times API will in be in Array format **********/
+// [{},{},{}]
