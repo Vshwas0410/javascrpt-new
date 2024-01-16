@@ -12,10 +12,10 @@ const temperature = 41
 // <, >, <=, >=, ==, !=, ===, !==
 
 // const score = 200
-
+// o/p with const power is not defined
 // if (score > 100) {
-//     let power = "fly"
-//     console.log(`User power: ${power}`);
+//     let power = "fly" 
+//     console.log(`User power: ${power}`);  /// dont use Var because it is global element
 // }
 
 // console.log(`User power: ${power}`);
@@ -23,7 +23,7 @@ const temperature = 41
 
 // const balance = 1000
 
-// if (balance > 500) console.log("test"),console.log("test2");
+// if (balance > 500) console.log("test"),console.log("test2"); //bad practice
 
 // if (balance < 500) {
 //     console.log("less than 500");
